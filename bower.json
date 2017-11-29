@@ -1,0 +1,18 @@
+{
+  "name": "bower-away-test",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Gabriel Le Breton <lebreton.gabriel@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ]
+}
