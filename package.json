@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node -e \"try { require('fs').symlinkSync(require('path').resolve('node_modules/@bower_components'), 'public/libs', 'junction') } catch (e) { }\""
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@bower_components/font-awesome": "FortAwesome/Font-Awesome#^4.7.0"
+  },
+  "engines": {
+    "yarn": ">= 1.0.0"
+  }
 }
